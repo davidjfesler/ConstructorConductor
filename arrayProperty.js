@@ -2,4 +2,8 @@
 
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
   
-  //code here
+String.reverse = function (str) {
+	return str.split("").reverse().join("");
+};
+
+String.reverse("what");
